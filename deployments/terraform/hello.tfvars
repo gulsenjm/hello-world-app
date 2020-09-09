@@ -1,0 +1,8 @@
+credentials = "common-service-account.json"
+google_bucket_name = "fuchicorp-blue-bucket"
+deployment_name = "hello-app"
+google_project_id = "valued-clarity-288316"
+google_domain_name = "indianagulu.com"
+deployment_environment = "tools"
+# google_project_name = "My First Project"
+deployment_endpoint = "stage"
