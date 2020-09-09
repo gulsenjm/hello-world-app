@@ -5,7 +5,7 @@
 replicaCount: 5
 
 image:
-  repository: docker.indianagulu.com/hello-world-app-dev-feature:ae982de
+  repository: docker.indianagulu.com/hello-world-app-dev-feature:latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

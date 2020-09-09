@@ -1,5 +1,5 @@
 variable "deployment_image" {
-  default = "docker.indianagulu.com/hello-world-app-dev-feature:ae982de"
+  default = "docker.indianagulu.com/hello-world-app-dev-feature:latest"
 }
 variable "deployment_environment" {
     default = "stage"
