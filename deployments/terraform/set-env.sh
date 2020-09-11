@@ -1,10 +1,5 @@
-#!/bin/bash -e 
 
 DATAFILE="$PWD/$1"
-#
-# FuchiCorp common script to set up Google terraform environment variables
-# these all variables should be created on your config file before you run script.
-# <ENVIRONMENT> <BUCKET> <DEPLOYMENT> <PROJECT> <CREDENTIALS>
 
 if [ -z "$GIT_TOKEN" ]
 then
