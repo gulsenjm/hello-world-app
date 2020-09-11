@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket  = "fuchicorp-blue-bucket"
-    prefix  = "prod/hello-world"
+    prefix  = "qa/hello-world"
     project = "valued-clarity-288316"
   }
 }
