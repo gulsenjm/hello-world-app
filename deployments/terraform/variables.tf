@@ -8,7 +8,7 @@ variable "deployment_name" {
 }
 
 variable "deployment_image" {
-    default = "fsadykov/hello-world:latest"
+    default = "docker.fuchicorp.com/hello-world-app-dev-feature:latest"
     description = "- (Optional) The docker image of the deployment."
 }
 
